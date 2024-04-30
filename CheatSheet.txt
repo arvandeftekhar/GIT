@@ -30,3 +30,6 @@ for adding files  to the github with git: git remote add origin and git repo lin
 For creating a new branch and swith to it: git branch Name and git checkout NameOfBranch
 For seeing the branch and log: git log --all --graph
 For merging,combining two branches: git merge TheOtheOneName
+For checking the link of git remote: git remote -v
+For getting data from remote: git getch <remote>
+For older version of branch: git checkout -b fix/pr-definition  and for the newer version: git switch -c fix/pr-definition
